@@ -1,0 +1,40 @@
+.whyus {
+    max-width: 1280px;
+    margin-inline: auto;
+    margin-bottom: -90px;
+}
+
+.why-choose-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.feature {
+    flex-basis: calc(50% - 1rem);
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    margin-bottom: 1.5rem;
+    background-color: black;
+    color: white;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+    .feature {
+        flex-basis: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.contact h2 {
+    text-align: left;
+}
+
+.contact p {
+    margin-top: 1.5rem;
+    font-size: 2vmax;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    .contact p {
+        font-size: 3vmax;
+    }
+
+}

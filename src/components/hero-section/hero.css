@@ -1,0 +1,82 @@
+.hero {
+    background-color: black;
+    position: relative;
+}
+
+.hero-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 1.2;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
+.hero-content>div {
+    font-size: 5vmax;
+    color: white;
+}
+
+.button a {
+    text-shadow: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: .7rem;
+    display: block;
+    margin-top: 1rem;
+    width: 55%;
+    font-size: 1.5vmax;
+    cursor: pointer;
+    background: black;
+}
+
+.button a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+    .button a {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /* tablet-specific style here */
+    .hero-content>div {
+        font-size: 6.5vmax;
+    }
+
+    .button a {
+        font-size: 2.5vmax;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .hero-content>div {
+        font-size: 8.5vmax;
+    }
+
+    .button a {
+        font-size: 3vmax;
+        width: 65%;
+    }
+
+    .hero-image img {
+        object-position: right;
+    }
+}

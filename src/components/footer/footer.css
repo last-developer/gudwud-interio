@@ -1,0 +1,38 @@
+footer {
+    padding: 2.5rem 7%;
+    background-color: black;
+    color: white;
+}
+
+.footer-top p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2vmax;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    font-size: 1.8vmax;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 2.5rem 4%;
+    }
+
+    .footer-top p {
+        font-size: 3.2vmax;
+    }
+
+    .footer-bottom p {
+        font-size: 2.3vmax;
+    }
+
+}

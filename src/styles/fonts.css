@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'lufga-500';
+    src: url('../fonts/Fontspring-DEMO-lufga-medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'sign';
+    src: url('../fonts/DrSugiyama-Regular.ttf') format('truetype');
+}
+
+.lufga-500 {
+    font-family: 'lufga-500', sans-serif;
+}
+
+.sign {
+    font-family: 'sign', sans-serif;
+}
