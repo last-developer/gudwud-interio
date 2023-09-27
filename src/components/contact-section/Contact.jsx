@@ -8,6 +8,7 @@ const Contact = () => {
             <p className='josefin'>Email - Gudwudinterio213@gmail.com</p>
             <p className='josefin'>Mobile- +91 8168238963</p>
             <p className='josefin'>Mobile- +91 8221014164</p>
+            <p ><a href="https://wa.link/d7crlg" className='josefin'>say hi on WhatsApp</a></p>
         </section>
     )
 }

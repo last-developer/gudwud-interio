@@ -22,6 +22,10 @@ const Whyus = () => {
                     <h3>Client-Centric Approach</h3>
                     <p>Our clients are at the heart of everything we do. Your satisfaction is our priority, and we go above and beyond to ensure that every project exceeds expectations. Our dedicated team is here to answer your questions, address concerns, and make the journey enjoyable.</p>
                 </div>
+                <div className='feature f2'>
+                    <h3>Budget-Friendly Kitchen</h3>
+                    <p>We understand the importance of a budget-friendly kitchen. Our designs are not only aesthetically pleasing but also cost-effective, ensuring you get the kitchen of your dreams without breaking the bank.</p>
+                </div>
             </div>
         </section>
     )
